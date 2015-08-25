@@ -29,7 +29,7 @@ class RecaptchaServiceProvider extends ServiceProvider
 		$this->package('greggilbert/recaptcha');
 		
 		$this->addValidator();
-		$this->addFormMacro();
+//		$this->addFormMacro();
 	}
     
 	/**
